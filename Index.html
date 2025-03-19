@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>JavaScript Object</h2>
+    <p id="demo"></p>
+
+    <script>
+      var MClaren = {
+        model: "P1 GTR",
+        topSpeed: "350 km/h",
+        price: "$3.1 Million",
+      };
+
+      document.getElementById(
+        "demo"
+      ).innerHTML = `Car Model : ${MClaren.model} <br>
+        Car Top Speed : ${MClaren.topSpeed} <br>
+        Car Price : ${MClaren.price} <br>`;
+    </script>
+  </body>
+</html>
